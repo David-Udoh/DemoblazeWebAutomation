@@ -4,7 +4,7 @@ import { HomePage } from '../../pages/HomePage';
 
 test.describe('LoginTest', ()=>{
 
-test.only ('loginPass', async ({page }) =>{
+test ('loginPass', async ({page }) =>{
 
    const login = new LoginPage(page)
 

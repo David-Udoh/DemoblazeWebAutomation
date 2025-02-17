@@ -37,7 +37,7 @@ test ('elementshot', async ({ page}) =>{
     // On playwright.config.js, you can set screenshot: 'on' to capture all files, or only-on-failure saved in test-results
 })
 
-test.only ('compare', async ({page}) =>{
+test ('compare', async ({page}) =>{
 
     await page.goto('https://demoblaze.com/')
 
